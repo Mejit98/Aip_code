@@ -109,7 +109,6 @@ computed: {
   <p>Количество: {{ amount }}</p>
   <p>Итого: {{ price }}</p>
 
-
   <button @click="changeCost">Изменить цену</button>
   <a href="https://example.com" @click.prevent="handleClick"> Link </a>
   <button @click.once="handleOnce">Click me once</button>
